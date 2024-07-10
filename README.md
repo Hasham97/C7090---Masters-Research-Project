@@ -10,7 +10,8 @@
                  For the latest draft of clean data, please use data_4.xlsx
 
 ## Code:
-        The code used to install nasapower and download weather data for hot events is follows:
+        #The R code used to install nasapower and download weather data for hot events is as follows:
+        
         install.packages("nasapower")
         load("nasapower")
         library("nasapower")
