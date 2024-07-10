@@ -12,13 +12,13 @@
 ## Code:
         The code used to install nasapower and download weather data for hot events is follows:
         install.packages("nasapower")
-load("nasapower")
-library("nasapower")
+        load("nasapower")
+        library("nasapower")
 
-daily_ag <- get_power(
-  community = "ag",
-  lonlat = c(52.7796366,-2.4327348),
-  pars = c("RH2M", "T2M", "PRECTOTCORR"),
-  dates = c("2018-02-19", "2023-03-31"),
-  temporal_api = "daily"
-  )
+        daily_ag <- get_power(
+         community = "ag",
+         lonlat = c(52.7796366,-2.4327348),
+         pars = c("RH2M", "T2M", "PRECTOTCORR"),
+         dates = c("2018-02-19", "2023-03-31"),
+         temporal_api = "daily"
+         )
